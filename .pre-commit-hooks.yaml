@@ -263,3 +263,12 @@
     # for backward compatibility
     files: ''
     minimum_pre_commit_version: 0.15.0
+-   id: unicode-literals
+    name: Add missing unicode literals imports
+    language: python
+    entry: unicode-literals
+    description: 'Add missing unicode_literals imports'
+    types: [python]
+    # for backward compatibility
+    files: ''
+    minimum_pre_commit_version: 0.15.0

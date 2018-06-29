@@ -61,6 +61,7 @@ setup(
             'requirements-txt-fixer = pre_commit_hooks.requirements_txt_fixer:fix_requirements_txt',
             'sort-simple-yaml = pre_commit_hooks.sort_simple_yaml:main',
             'trailing-whitespace-fixer = pre_commit_hooks.trailing_whitespace_fixer:main',
+            'unicode-literals = pre_commit_hooks.unicode_literals:main',
         ],
     },
 )
